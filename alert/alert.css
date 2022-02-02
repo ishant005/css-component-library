@@ -1,66 +1,54 @@
 @import url(../styles.css);
 
-.simple-alert-container{
-    display: flex;
-     flex-direction: column;
-     align-items: center;
-    justify-content: center;
+.simple-alert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.alert{
-    border: 1px solid black;
-    padding: 0.7rem;
-    font-size: 1.1rem;
-    border-radius: 10px;
-    width: 20rem;
-    margin: 0.8rem;
+.alert {
+  border: 1px solid black;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  width: 20rem;
+  margin: 0.8rem;
 }
-.alert-success{
-    background-color: var(--success-color);
-    color: white;
-    border: 1px solid ;
+.alert-success {
+  background-color: var(--success-color);
+  color: white;
+  border: 1px solid;
 }
-.alert-failure{
-    
-        background-color: var(--error-color);
-        color: white;
-        border: 1px solid ;
-    }
-.alert-warning{
-    
-        background-color: var(--warning-color);
-        color: white;
-        border: 1px solid ;
-    }
-    
-.alert-danger{
-    
-    background-color: var(--danger-color);
-    color: white;
-    border: 1px solid ;
+.alert-failure {
+  background-color: var(--error-color);
+  color: white;
+  border: 1px solid;
+}
+.alert-warning {
+  background-color: var(--warning-color);
+  color: white;
+  border: 1px solid;
+}
+.alert-danger {
+  background-color: var(--danger-color);
+  color: white;
+  border: 1px solid;
 }
 
 /* outline alert box */
-
-.outline-alert-success{
-    
-    border: 2px solid var(--success-color);
-    color: var(--success-color);
-  
+.outline-alert-success {
+  border: 2px solid var(--success-color);
+  color: var(--success-color);
 }
-.outline-alert-error{
-    border: 2px solid var(--error-color);
-   
+.outline-alert-error {
+  border: 2px solid var(--error-color);
   color: var(--error-color);
-     
 }
-.outline-alert-warning{    
-    border: 2px solid var(--warning-color);
-    color: var(--warning-color);
+.outline-alert-warning {
+  border: 2px solid var(--warning-color);
+  color: var(--warning-color);
 }
-.outline-alert-danger{
-    border: 2px solid var(--danger-color);
-    color: var(--danger-color);
-
+.outline-alert-danger {
+  border: 2px solid var(--danger-color);
+  color: var(--danger-color);
 }
-    
-
