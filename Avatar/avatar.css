@@ -1,0 +1,66 @@
+@import url(../styles.css);
+
+:root{
+    --color-bg:rgb(238, 157, 5);
+} 
+
+.avatar-circle-container ,
+.avatar-square-container,
+.avatar-text-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    margin: 2rem; 
+}
+.img-circle{
+    border-radius: 50%;
+    }
+ .img-square{
+     border-radius: 25%;
+ }   
+.avatar-sm{
+    height: 3rem;
+    width: 3rem;
+}
+.avatar-md{
+    height: 5rem;
+    width: 5rem;
+}
+.avatar-lg{
+    height: 8rem;
+    width: 8rem;
+}
+.avatar-xl{
+    height: 9rem;
+    width: 9rem;
+}
+
+/* text-avatar-styling */
+.text{
+    background-color: var(--color-bg);
+    text-align: center;
+    vertical-align: center;
+    font-size: smaller;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+.text-xl{
+    line-height: 9rem;
+    font-size: 1.5rem;
+}
+.text-lg{
+    line-height: 8rem;
+    font-size: 1rem;
+}
+.text-md{
+    line-height: 5rem;
+    font-size:10px;
+}
+.text-sm{
+    line-height: 3rem;
+    font-size: 8px;
+}
