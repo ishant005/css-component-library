@@ -1,0 +1,29 @@
+@import url(../styles.css);
+.container{
+    display: flex;
+    margin: 2rem;
+}
+.icon-badge-container{
+margin: 2rem;
+}
+.icon{
+    font-size: 1.6rem;
+}
+.icon-badge{
+    background-color:var(--error-color);
+    position: relative;
+    height: 1.3rem;
+    width: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+     top: -2.4rem; 
+    left: 0.9rem; 
+}
+.badge-color{
+    background-color:var(---color);
+}
