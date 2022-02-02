@@ -6,10 +6,19 @@
     --success-color:rgb(29, 122, 29);
     --warning-color:rgb(236, 165, 71);
     --danger-color:rgb(116, 37, 37);
+    --grey-color:rgb(138, 136, 136);
+    --primary-color:rgb(83, 83, 221);
+    --link-hover:rgb(6, 6, 119);
+    --link-active:rgb(12, 12, 85);
+    --icon-bg:rgb(231, 195, 195);
+    --primary-color-icon:rgb(83, 83, 221);
+    --primary-hover:rgb(63, 63, 194);
+    --success-hover:rgb(12, 97, 12);
+    --error-hover:rgb(190, 10, 10);
+    --default-hover:rgb(241, 151, 32);
 }
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lora',serif;
 }
