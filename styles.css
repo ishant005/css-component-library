@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap');
+
+:root{
+    --white:rgb(248, 247, 247);
+    --error-color:rgb(219, 8, 8);
+    --success-color:rgb(29, 122, 29);
+    --warning-color:rgb(236, 165, 71);
+    --danger-color:rgb(116, 37, 37);
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora',serif;
+}
