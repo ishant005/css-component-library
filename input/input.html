@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>input</title>
+        <link rel="stylesheet" href="input.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-group">
+                <label>Username *</label>
+                <input type="text" placeholder="Enter your username" />
+            </div>
+            <div class="input-group error">
+                <label>Password *</label>
+                <input type="password" />
+                <div class="error-message">Password don't match.</div>
+            </div>
+
+            <!-- Validation  -->
+            <div class="input danger">
+                <input type="text" class="failure" />
+                <div class="failure">Label</div>
+            </div>
+            <div class="input warn">
+                <input type="text" class="warn" />
+                <div class="warn">Label</div>
+            </div>
+            <div class="input">
+                <input type="text" class="success" />
+                <div class="success">Label</div>
+            </div>
+        </div>
+    </body>
+</html>
