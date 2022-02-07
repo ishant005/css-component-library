@@ -1,0 +1,118 @@
+@import url(../styles.css);
+
+.input-group {
+    line-height: 20px;
+    margin: 0 20px 10px;
+    width: 30%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type="text"] {
+    background: #fff;
+    border: 1px solid #999;
+    padding: 0.6rem 0.7rem;
+    float: left;
+    font-size: 0.8rem;
+    margin: 5px 0;
+    width: 100%;
+    transition: 0.3s all ease;
+    outline: none;
+    border-radius: 2px;
+}
+input[type="password"] {
+    background: #fff;
+    border: 1px solid #999;
+    padding: 0.6rem 0.7rem;
+    float: left;
+    font-size: 0.8rem;
+    margin: 5px 0;
+    width: 100%;
+    transition: 0.3s all ease;
+    border-radius: 2px;
+}
+
+.input-group input:focus {
+    border: 1px solid var(--grey-color);
+}
+
+.input-group.error {
+    color: var(--error-color);
+}
+
+.input-group.error input {
+    border: 1px solid var(--error-color);
+}
+
+.input-group.error input:focus {
+    border: 1px solid var(--error-color);
+}
+
+.error-message {
+    color: var(--error-color);
+}
+.input-group .danger {
+    color: var(--error-color);
+}
+.input {
+    position: relative;
+    margin: 1rem;
+}
+
+.input > input {
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #9b9ba0;
+    width: 20em;
+    height: 3em;
+    padding: 0.2em;
+}
+
+.input > div {
+    position: absolute;
+    top: -0.3em;
+    left: 1em;
+    background-color: #fff;
+    font-weight: 500;
+    padding: 0.1em;
+}
+
+.input > input.failure {
+    border: 2px solid var(--error-color);
+}
+
+.input > div.failure {
+    color: var(--error-color);
+}
+.input > input.failure:focus {
+    border: 2px solid var(--black-color);
+}
+
+.input > input.warn {
+    border: 2px solid var(--warning-color);
+}
+.input > input.warn:focus {
+    border: 2px solid var(--black-color);
+}
+
+.input > div.warn {
+    color: var(--warning-color);
+}
+
+.input > input.success {
+    border: 2px solid var(--success-color);
+}
+.input > input.success:focus {
+    border: 2px solid var(--black-color);
+}
+
+.input > div.success {
+    color: var(--success-color);
+}

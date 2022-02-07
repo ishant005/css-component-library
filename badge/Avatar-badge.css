@@ -1,0 +1,39 @@
+@import url(../styles.css);
+
+:root{
+    --yellow-bg:rgb(238, 157, 5);
+    --black-color:rgb(0, 0, 0);
+} 
+
+.avatar-badge-container 
+{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.badge{
+    margin: 2rem; 
+}
+.img-circle{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    }
+    .badge > div{
+        position:relative;
+        border: 2px solid var(--white);
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        top: -1rem;
+        left: 2.8rem;
+    }
+    .online{
+        background-color: var(--success-color);
+    }
+    .offline{
+        background-color: var(--error-color);
+    }
+    .dnd{
+        background-color: var(--grey-color);
+    }
