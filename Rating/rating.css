@@ -1,8 +1,0 @@
-@import url(../styles.css);
-.num-icon{
-    background-color: var(--primary-color);
-    width: 3.3rem;
-    padding:3px;
-    color:var(--white);
-    border-radius: 3px;
-}
