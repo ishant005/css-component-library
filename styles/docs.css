@@ -1,0 +1,118 @@
+@import url(../styles.css);
+.sub-container {
+    display: flex;
+    margin-left: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 80vh;
+    margin: 1rem 5rem;
+    position: fixed;
+    overflow: hidden;
+}
+.sidebar-head {
+    font-size: 1.6rem;
+    color: #333;
+}
+.sidebar-navbar {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.sidebar-navbar li {
+    padding: 1rem 0.5rem;
+}
+.sidebar-navbar:hover {
+    color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+
+    font-weight: 500;
+}
+.sidebar-navbar li:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: var(--white);
+    transition: all 0.4s;
+}
+.link:hover {
+    color: var(--primary-color);
+}
+.doc-content {
+    box-shadow: -10px 0px 10px 0px var(--grey-color);
+    max-width: 52%;
+    padding-left: 2rem;
+    padding-top: 0.4rem;
+    margin-left: 18rem;
+}
+.content-head {
+    font-family: sans-serif;
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.content-title {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    padding-top: 5.1rem;
+}
+.content-subtitle {
+    line-height: 27px;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.example-div {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 4px;
+    background-color: var(--doc-background-color);
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.alert-box {
+    flex-direction: column;
+}
+.code-display {
+    display: flex;
+}
+.code-display iframe {
+    height: 1rem;
+}
+.code-snippet-container {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: var(--doc-background-color);
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    overflow-x: hidden;
+}
+.input-grp {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,103 @@
+
+.main-container{
+    background-color:var(--white) ;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    html {
+        font-size: 100%;
+      }
+      
+@media only screen and (max-width: 600px) {
+    html {
+      font-size: 75%;
+    }
+  }
+.basic-drawer{
+    height: 18rem;
+    width: 15rem;
+    border: 1px solid var(--grey-color);
+    margin:6rem auto ;
+    background-color: var(--white);
+    box-shadow: 0.2px 0.2px ;
+}
+.basic-drawer-component{
+     display: flex;
+     flex-direction: column;
+     margin:0rem 0.5rem ;
+}
+.icon-content{
+    display: flex;
+    gap: 2rem;
+    color: var(--drawer-title-color);
+    padding:  1rem  0.5rem;
+    border: 1px solid red;
+}
+.drawer-title{
+    margin: 1rem;
+}
+.drawer-title p{
+    color: var(--drawer-title-color);
+}
+.icon-content:hover{
+     background-color: var(--drawer-background-color);
+     cursor: pointer;
+     border-radius: 4px;
+     color: var(--primary-color);
+}
+/* Permanent Drawer****************** */
+.outer-div{
+    width: 90vw;
+    height: 60vh;
+    margin-bottom: 6rem;
+}
+.permanent-drawer{
+    display: flex;
+   margin: auto;
+    width: 80rem;
+    background-color: var(--white);
+}
+.permanent-drawer-title{
+       background-color: var(--primary-color);
+       padding: 1.2rem 2rem;
+       color:var(--white);
+}.icon-content:focus{
+    background-color: var(--drawer-background-color);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.side-bar{
+    width: 16rem;
+}
+.permanent-drawer-content{
+    width: 100%;
+}
+.permanent-drawer-section{
+    height: 23rem;
+    overflow-y:scroll; 
+}
+.permanent-drawer .basic-drawer-component{
+    height: 23rem;
+    overflow-y: scroll;
+}
+/* dismissible drawer */
+ .permanent-drawer-title{
+        display: flex;
+        gap: 2rem;
+    }
+    .permanent-drawer-title  i{
+              margin: 11px;
+    }
+    .toggle-button:hover{
+        cursor: pointer;
+    }
+   .fold{
+       width: 0rem;
+   }
+   .side-bar-toggle{
+    width: 16rem;
+   }

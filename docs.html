@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Docs</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="left-nav">
+                    <a href="#">Flash UI</a>
+                </div>
+                <ul class="right-nav">
+                    <li><a href="#">Docs</a></li>
+                    <li>
+                        <a href="#"></a>
+                        <i class="fab fa-github icon"></i>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sub-container">
+                <section class="sidebar-list">
+                    <h3 class="sidebar-head">Components</h3>
+                    <ul class="sidebar-navbar">
+                        <li>
+                            <a href="#" class="link text-link">Alert</a>
+                        </li>
+                        <li>
+                            <a href="#Avatar" class="link text-link">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="#Badge" class="link text-link">Badge</a>
+                        </li>
+                        <li>
+                            <a href="#Button" class="link text-link">Button</a>
+                        </li>
+                        <li>
+                            <a href="#Image" class="link text-link">Image</a>
+                        </li>
+                        <li>
+                            <a href="#Input" class="link text-link">Input</a>
+                        </li>
+                        <li>
+                            <a href="#Navigation" class="link text-link"
+                                >Navigation</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#Typography" class="link text-link"
+                                >Typography</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#Rating" class="link text-link">Rating</a>
+                        </li>
+                        <li>
+                            <a href="#Card" class="link text-link">Rating</a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- main document -->
+                <div class="doc-content">
+                    <div id="#Alert">
+                        <div class="content-title">Alerts</div>
+                        <div class="content-subtitle">
+                            An alert displays a short,important message in a way
+                            that attracts the user's attention without
+                            interrupting the users task
+                        </div>
+                        <div class="content-head">Simple alert</div>
+                        <div class="content-subtitle">
+                            There are 4 types of simple alerts - Primary,
+                            Secondary, Success, Warning, and Error alerts. To
+                            create an alert use the base class alert, and add
+                            any one of the following class variations to it-
+                            alert-success, alert-failure, alert-warning, and
+                            alert-danger.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div alert-box">
+                            <div class="alert alert-success">
+                                <i class="far fa-check-circle"></i>
+                                Success alert
+                            </div>
+                            <div class="alert alert-failure">
+                                <i class="fas fa-times"></i>
+                                Error alert
+                            </div>
+                            <div class="alert alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                Warning alert
+                            </div>
+
+                            <div class="alert alert-danger">
+                                <i class="fas fa-skull-crossbones"></i>
+                                Danger alert
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the alert</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Success%2520alert%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-failure%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Error%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Warning%2520alert%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Danger%2520alert%250A%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+
+                        <!------ outline alert box ------>
+                        <div class="content-head">Outline alert</div>
+                        <div class="content-subtitle">
+                            There are 4 types of outline alerts - Success,
+                            Warning, and Error alerts. To create an alert use
+                            the base class alert, and add any one of the
+                            following class variations to it- alert-primary,
+                            alert-secondary, alert-success, alert-warning, and
+                            alert-error.
+                        </div>
+                        <div class="example-div alert-box">
+                            <div class="alert outline-alert-success">
+                                <i class="far fa-check-circle"></i>
+                                Success alert
+                            </div>
+                            <div class="alert outline-alert-error">
+                                <i class="fas fa-times"></i>
+                                Error alert
+                            </div>
+                            <div class="alert outline-alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                Warning alert
+                            </div>
+                            <div class="alert outline-alert-danger">
+                                <i class="fas fa-skull-crossbones"></i>
+                                Danger alert
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the outline alert</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=634.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-alert-success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Success%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-alert-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Error%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-alert-warning%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Warning%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-alert-danger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Danger%2520alert%250A%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <!------------------- Avatar box------- -->
+                    <div id="Avatar">
+                        <div class="content-title">Avatars</div>
+                        <div class="content-subtitle">
+                            Avatars are user profile pictures, usually found in
+                            circular shapes. Avatars can be used for 'container'
+                            objects — projects, spaces, repositories, etcetera —
+                            to give them a recognisable visual identity
+                        </div>
+                        <div class="content-head">Circle avatar</div>
+                        <div class="content-subtitle">
+                            This is the circle avatar .You can use the avatar
+                            according to the screen size by using xl,lg,md,sm.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!------------------------- Circle avatar----------------- -->
+                            <div class="avatar">
+                                <img
+                                    class="img-circle avatar-xl"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-circle avatar-lg"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-circle avatar-md"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-circle avatar-sm"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the circle avatar</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522avatar%2520%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2520avatar-xl%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2520avatar-lg%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2520avatar-md%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520%2522%253E%250A%253Cimg%2520class%253D%2522img-circle%2520avatar-sm%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%253E%250A%253C%252Fdiv%253E%2520%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!---------------------- Square avatar -------------->
+                        <div class="content-head">Square avatar</div>
+                        <div class="content-subtitle">
+                            This is the square avatar .You can use the avatar
+                            according to the screen size by using xl,lg,md,sm.
+                        </div>
+                        <div class="example-div">
+                            <div class="avatar">
+                                <img
+                                    class="img-square avatar-xl"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-square avatar-lg"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-square avatar-md"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    class="img-square avatar-sm"
+                                    src="/Assets/Avatar1.png"
+                                />
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the square avatar</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-square%2520avatar-xl%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-square%2520avatar-lg%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-square%2520avatar-md%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-square%2520avatar-sm%2522%2520src%253D%2522%252FAvatar%252FAvatar1.png%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+
+                        <!--------------------------- TEXT AVATAR----------- -->
+                        <div class="content-head">Text avatar</div>
+                        <div class="content-subtitle">
+                            This is the text avatar .You can use the avatar
+                            according to the screen size by using xl,sm..
+                        </div>
+                        <div class="example-div">
+                            <div class="avatar avatar-xl text text-xl">
+                                <span class="avatar-text">IY</span>
+                            </div>
+                            <div class="avatar avatar-lg text text-lg">
+                                <span class="avatar-text">IY</span>
+                            </div>
+                            <div class="avatar avatar-md text text-md">
+                                <span class="avatar-text">IY</span>
+                            </div>
+                            <div class="avatar avatar-sm text text-sm">
+                                <span class="avatar-text">IY</span>
+                            </div>
+                        </div>
+                        <p>
+                            Paste the code below to use different variant of
+                            text avatar
+                        </p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520text%2520text-xl%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-text%2522%253EIY%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520text%2520text-lg%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-text%2522%253EIY%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520text%2520text-md%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-text%2522%253EIY%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520text%2520text-sm%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-text%2522%253EIY%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------------Badge------------------- -->
+                    <div id="Badge">
+                        <div class="content-title">Badges</div>
+                        <div class="content-subtitle">
+                            Badges are small circles, positioned either at
+                            top-right or bottom-right of the parent component.
+                            Badge can be used to display numbers, online /
+                            offline status, depending on where they are used
+                        </div>
+                        <div class="content-head">Avatar Badge</div>
+                        <div class="content-subtitle">
+                            Avatar Badge is used to show the current status of a
+                            user.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!------------------------- avatar-badge----------------- -->
+                            <div class="badge">
+                                <img
+                                    class="img-circle-badge"
+                                    src="\Assets\Avatar1.png"
+                                />
+                                <div class="online"></div>
+                            </div>
+                            <div class="badge">
+                                <img
+                                    class="img-circle-badge"
+                                    src="\Assets\Avatar1.png"
+                                />
+                                <div class="offline"></div>
+                            </div>
+                            <div class="badge">
+                                <img
+                                    class="img-circle-badge"
+                                    src="\Assets\Avatar1.png"
+                                />
+                                <div class="dnd"></div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Avatar-badge</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2522%2520src%253D%2522%255Cbadge%255CAvatar2.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2522%2520src%253D%2522%255Cbadge%255CAvatar2.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-circle%2522%2520src%253D%2522%255Cbadge%255CAvatar2.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!---------------------- icon-badge -------------->
+                        <div class="content-head">Icon-badge</div>
+                        <div class="content-subtitle">
+                            Icon-badge is used to show the notification.
+                        </div>
+                        <div class="example-div">
+                            <div class="icon-badge-container">
+                                <i class="fas fa-home icon"></i>
+                                <span class="icon-badge">4</span>
+                            </div>
+                            <div class="icon-badge-container">
+                                <i class="fas fa-envelope icon"></i>
+                                <span class="icon-badge badge-color">4</span>
+                            </div>
+                            <div class="icon-badge-container">
+                                <i class="fas fa-bell icon"></i>
+                                <span class="icon-badge">4</span>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the icon badge</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2520badge-color%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------------- Buttons ----------------------------->
+                    <div id="Button">
+                        <div class="content-title">Buttons</div>
+                        <div class="content-subtitle">
+                            Buttons are components user can click to perform an
+                            action and interact with the website.
+                        </div>
+                        <div class="content-head">Primary Button</div>
+                        <div class="content-subtitle">
+                            To generate a primary button, use the base class
+                            btn.btn-primary and add any of the following
+                            supporting classes to get different variations for a
+                            primary button- btn-primary, btn-success, btn-error,
+                            btn-default.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!------------------------- Primary Button----------------- -->
+                            <div class="contained button">
+                                <button class="btn btn-primary">PRIMARY</button>
+                                <button class="btn btn-success">SUCCESS</button>
+                                <button class="btn btn-error">ERROR</button>
+                                <button class="btn btn-default">DEFAULT</button>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Primary Button</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESUCCESS%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EERROR%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!---------------------- Outline Button -------------->
+                        <div class="content-head">Outline Button</div>
+                        <div class="content-subtitle">
+                            To generate a outline button, use the base class
+                            btn.btn-primary and add any of the following
+                            supporting classes to get different variations for a
+                            primary button- outline-primary,outline-sucsess,
+                            outline-error,outline-default.
+                        </div>
+                        <div class="example-div">
+                            <div class="outline-button">
+                                <button class="btn outline-primary">
+                                    PRIMARY
+                                </button>
+                                <button class="btn outline-success">
+                                    SUCCESS
+                                </button>
+                                <button class="btn outline-error">ERROR</button>
+                                <button class="btn outline-default">
+                                    DEFAULT
+                                </button>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Outline Button</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520%2520outline-success%2522%253ESUCCESS%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520%2520outline-error%2522%253EERROR%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520%2520outline-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!---------------------------LINK BUTTON----------- -->
+                        <div class="content-head">Link Button</div>
+                        <div class="content-subtitle">
+                            This is the Link Button .
+                        </div>
+                        <div class="example-div">
+                            <a href="link" class="link-btn">
+                                <button class="btn btn-link">LINK</button>
+                            </a>
+                            <!-- </div> -->
+                        </div>
+                        <p>Paste the code below to use Link Button</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522link-button%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522link%2522%2520class%253D%2522link-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELINK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-------------- Icon Button------------ -->
+                        <div class="content-head">Icon Button</div>
+                        <div class="content-subtitle">
+                            To generate a icon button, use the base class
+                            btn.btn-primary and add any of the following
+                            supporting classes to get different variations for a
+                            primary button- btn-solid, btn-outline, btn-link,
+                            btn-icon, and btn-text-icon
+                        </div>
+                        <div class="example-div">
+                            <div class="icon-button">
+                                <button class="btn primary-btn-icon">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <button class="btn secondary-btn-icon">
+                                    <i class="far fa-address-book fa-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Icon Button</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fbutton%253E%2520%250A%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-address-book%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fbutton%253E%2520%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- floating button -->
+                        <div class="content-head">Floating Button</div>
+                        <div class="content-subtitle">
+                            Floating-action buttons can be customized by adding
+                            the font-awesome icon of your choice
+                        </div>
+                        <div class="example-div">
+                            <div class="floating-button">
+                                <button class="btn floating-btn btn-primary">
+                                    <i class="fas fa-angle-double-up fa-lg"></i>
+                                </button>
+                                <button class="btn floating-btn btn-secondary">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Floating Button</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520floating-btn%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-double-up%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520floating-btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------Image component------------------ -->
+                    <div id="Image">
+                        <div class="content-title">Images</div>
+                        <div class="content-subtitle">
+                            Image Components are used to dsiplay Images on
+                            websites.
+                        </div>
+                        <div class="content-head">Square Image</div>
+                        <div class="content-subtitle">
+                            Square Images are the square shaped, with a default
+                            dimension of 150px X 150px.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!-------------------------Square Image----------------- -->
+                            <!-- <div class="contained-button"> -->
+                            <div class="image-container">
+                                <img src="\Assets\image1.jpg" class="sq-img" />
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Image Component</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520src%253D%2522%255Cimage%255Cimage1.jpg%2522%2520class%253D%2522sq-img%2522%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 120px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-------------------------Round Image----------------------------- -->
+                        <div class="content-head">Round Image</div>
+                        <div class="content-subtitle">
+                            Round Images are the circular, with a default
+                            dimension of 150px X 150px.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="image-container">
+                                <img
+                                    src="\Assets\image2.jpg"
+                                    class="round-img"
+                                />
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Round Image</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520src%253D%2522%255Cimage%255Cimage2.jpg%2522%2520class%253D%2522round-img%2522%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 120px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!--------------Full Width Image------------------>
+                        <div class="content-head">Responsive Image</div>
+                        <div class="content-subtitle">
+                            Responsive Image Components are used to display
+                            Images on websites, which are screen responsive.
+                            They expand upto the width of the container they are
+                            in.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!-------------------------Responsive Image----------------- -->
+                            <div class="image-container">
+                                <img
+                                    src="\Assets\image3.jpg"
+                                    class="responsive-img"
+                                />
+                            </div>
+                        </div>
+
+                        <p>Paste the code below to use the Responsive Image</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%255Cimage%255Cimage3.jpg%2522%2520class%253D%2522responsive-img%2522%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 120px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------------Input component----------->
+                    <div id="Input">
+                        <div class="content-title">Inputs</div>
+                        <div class="content-subtitle">
+                            Inputs are necessary for user interaction with the
+                            website. Inputs are used to take information from
+                            the user, and then save the data to the server,
+                            accordingly
+                        </div>
+                        <div class="content-head">Labeled Input</div>
+                        <div class="content-subtitle">
+                            Label Input has a label present at the top of the
+                            input field. They can be customized to show error
+                            error-message, and change color accordingly.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div input-grp">
+                            <!-------------------------Labeled Input----------------- -->
+                            <div class="input-group">
+                                <label>Username *</label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter your username"
+                                />
+                            </div>
+                            <div class="input-group error">
+                                <label>Password *</label>
+                                <input type="password" />
+                                <div class="error-message">
+                                    Password don't match.
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Labeled Input</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=494&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-group%2520error%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EPassword%2520don%27t%2520match.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-------------------------Validation Input----------------------------- -->
+                        <div class="content-head">Validation Input</div>
+                        <div class="content-subtitle">
+                            Validation input are used to validate the input
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div input-grp">
+                            <div class="input danger">
+                                <input type="text" class="failure" />
+                                <div class="failure">Label</div>
+                            </div>
+                            <div class="input warn">
+                                <input type="text" class="warn" />
+                                <div class="warn">Label</div>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="success" />
+                                <div class="success">Label</div>
+                            </div>
+                        </div>
+
+                        <p>Paste the code below to use the Validation Input</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input%2520danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522failure%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522failure%2522%253ELabel%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input%2520warn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522warn%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warn%2522%253ELabel%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522success%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2522%253ELabel%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------Navigation Component----------------------------- -->
+                    <div id="Navigation">
+                        <div class="content-title">Drawer</div>
+                        <div class="content-subtitle">
+                            The drawer component is a slide-in element that can
+                            be used to display relevant information without
+                            losing the context of the page
+                        </div>
+                        <div class="content-head">Permanent Drawer</div>
+                        <div class="content-subtitle">
+                            It is a fixed drawer,that will be fixed to its
+                            place.
+                        </div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!------------------------Permanent Drawer----------------- -->
+                            <div class="permanent-drawer">
+                                <div class="side-bar">
+                                    <div class="drawer-title">
+                                        <h3>Title</h3>
+                                        <p>subtext</p>
+                                    </div>
+                                    <div class="basic-drawer-component">
+                                        <div class="icon-content">
+                                            <i class="fas fa-inbox"></i>
+                                            <p>Inbox</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-star"></i>
+                                            <p>Star</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-paper-plane"></i>
+                                            <p>Sent mail</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Drafts</p>
+                                        </div>
+                                        <hr />
+                                        <div class="drawer-title">
+                                            <p>lables</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Family</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Friends</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Work</p>
+                                        </div>
+                                        <hr />
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Settings</p>
+                                        </div>
+                                        <div class="icon-content">
+                                            <i class="fas fa-envelope-open"></i>
+                                            <p>Settings</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="permanent-drawer-content">
+                                    <header class="permanent-drawer-title">
+                                        <h1>Permanent Drawer</h1>
+                                    </header>
+                                    <div class="permanent-drawer-section">
+                                        <p>
+                                            Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit. Quidem
+                                            sunt cum ullam totam, eum eveniet
+                                            dolore voluptatem vitae saepe iste
+                                            incidunt sed! Voluptas esse debitis
+                                            sit harum voluptatum temporibus
+                                            aliquid at soluta? Magnam voluptate,
+                                            aliquam obcaecati dolorum
+                                            repellendus blanditiis quis,
+                                            perspiciatis ipsam ad ratione, quae
+                                            minus cupiditate ipsum. Repudiandae,
+                                            laborum aliquid eveniet quae veniam
+                                            corporis sapiente doloremque
+                                            suscipit illo beatae.
+                                        </p>
+                                        <br />
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Iste
+                                            repellendus omnis eius minima
+                                            recusandae tenetur itaque ducimus
+                                            delectus sint ea non, amet harum
+                                            molestiae aliquam. Perspiciatis quos
+                                            veritatis commodi minima iure
+                                            voluptas quae impedit ratione odio
+                                            numquam exercitationem possimus
+                                            doloribus reprehenderit, ea
+                                            asperiores voluptatem doloremque at.
+                                            Sint eos aspernatur sunt maxime
+                                            accusantium delectus fugit itaque,
+                                            officia consequatur et perspiciatis
+                                            dolorem.
+                                        </p>
+                                        <br />
+                                        <p>
+                                            Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Maxime, impedit, numquam a totam at
+                                            illum neque, dignissimos odit quasi
+                                            amet dolore voluptatibus commodi
+                                            rerum doloremque cupiditate odio ut
+                                            praesentium beatae aliquam corrupti?
+                                            Cum suscipit quos praesentium
+                                            aspernatur possimus, minima quisquam
+                                            nesciunt placeat fugiat illo
+                                            quibusdam esse a optio nulla ratione
+                                            ipsam? Nulla tenetur esse aspernatur
+                                            quisquam quasi ea dolores sed!
+                                        </p>
+                                        <br />
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Nesciunt ipsum maxime adipisci
+                                            itaque, totam similique quo
+                                            recusandae ducimus porro quibusdam
+                                            qui delectus sequi voluptate laborum
+                                            at harum nam cum dolor unde incidunt
+                                            quia. Veritatis rerum ducimus,
+                                            dignissimos pariatur odio cum nihil
+                                            cupiditate? Ut earum, iure fugit
+                                            veniam nostrum doloremque quis
+                                            deleniti cum, harum corrupti nulla
+                                            excepturi repudiandae itaque quam
+                                            delectus.
+                                        </p>
+                                        <br />
+                                        <p>
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Labore
+                                            nemo ipsum adipisci voluptatum
+                                            suscipit facilis atque quibusdam?
+                                            Expedita molestias rem corrupti
+                                            ipsam ut, vel culpa labore iusto
+                                            magnam laborum esse numquam facere
+                                            minima accusamus molestiae odit
+                                            dolor veritatis enim consequuntur.
+                                            Vel dolore quis reprehenderit natus
+                                            consequatur quas ab ut architecto
+                                            quisquam. Enim, inventore. Possimus
+                                            non, voluptatum ut nobis quisquam
+                                            tempore.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the permanent drawer</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522permanent-drawer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522side-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esubtext%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-drawer-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInbox%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESent%2520mail%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDrafts%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Elables%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EFamily%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EFriends%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWork%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESettings%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+
+                        <!-------------------------sub-menu----------------------------- -->
+                        <div class="content-head">Submenu</div>
+                        <div class="content-subtitle">Submenu</div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="basic-drawer">
+                                <div class="drawer-title">
+                                    <h3>Title</h3>
+                                    <p>subtext</p>
+                                </div>
+                                <div class="basic-drawer-component">
+                                    <div class="icon-content">
+                                        <i class="fas fa-inbox"></i>
+                                        <p>Inbox</p>
+                                    </div>
+                                    <div class="icon-content">
+                                        <i class="fas fa-star"></i>
+                                        <p>Star</p>
+                                    </div>
+                                    <div class="icon-content">
+                                        <i class="fas fa-paper-plane"></i>
+                                        <p>Sent mail</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the submenu</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-drawer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esubtext%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-drawer-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInbox%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESent%2520mail%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope-open%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDrafts%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------- Typography ------------->
+                    <div id="Typography">
+                        <div class="content-title">Typography</div>
+                        <div class="content-subtitle">Example of headings</div>
+
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="heading">
+                                <h1>This is heading 1</h1>
+                                <h2>This is heading 2</h2>
+                                <h3>This is heading 3</h3>
+                                <h4>This is heading 4</h4>
+                                <h5>This is heading 5</h5>
+                                <small>This is a small text</small>
+                                <p style="color: blue">This is colored text</p>
+                            </div>
+                        </div>
+                        <p>
+                            Paste the code below to use different version of
+                            Headings
+                        </p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EThis%2520is%2520heading%25201%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EThis%2520is%2520heading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520heading%25203%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EThis%2520is%2520heading%25204%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EThis%2520is%2520heading%25205%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EThis%2520is%2520a%2520small%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522color%253Ablue%2522%253EThis%2520is%2520colored%2520text%253C%252Fp%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------Rating ----------------------->
+                    <div id="Rating">
+                        <div class="content-title">Rating</div>
+                        <div class="content-subtitle"></div>
+                        <div class="content-head">Normal Rating</div>
+                        <div class="content-subtitle"></div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!-------------------------Normal Rating------------>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Paste the code below to use the Normal Rating</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%2520"
+                                    style="
+                                        width: 540px;
+                                        height: 167px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-------------------------Number Rating----------------------------- -->
+                        <div class="content-head">Number Rating</div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="num-icon">
+                                <span>4.4</span>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <p>Paste the code below to use the Number Rating</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522num-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E4.4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520"
+                                    style="
+                                        width: 540px;
+                                        height: 149px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------Card component----------- -->
+                    <div id="card">
+                        <div class="content-title">Card</div>
+                        <div class="content-subtitle"></div>
+                        <div class="content-head">Card with badge</div>
+                        <div class="content-subtitle"></div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <!-------------------------Card with Badge----------------- -->
+                            <div class="component">
+                                <div class="header">
+                                    <div class="img-card">
+                                        <img src="\Assets\shoes.jpg" />
+                                    </div>
+
+                                    <div class="badge-card">NEW</div>
+                                    <div class="main-card-text">
+                                        <div class="main-text">
+                                            <h2>Nikemax Sneakers</h2>
+                                        </div>
+                                        <div class="main-description">
+                                            <div class="price-tag">
+                                                Price: $126
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <button class="card-btn-primary">
+                                                WISHLIST
+                                            </button>
+                                            <button class="card-btn-secondary">
+                                                BUY
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Card with badge</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522shoes.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-card%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENikemax%2520Sneakers%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tag%2522%253EPrice%253A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524126%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520primary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520secondary%2522%253EBUY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-------------------------Card with dismiss----------------------------- -->
+                        <div class="content-head">Card with dismiss</div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="component">
+                                <div class="header">
+                                    <div class="img-card">
+                                        <img src="\Assets\shoes.jpg" />
+                                    </div>
+                                    <div class="dismiss">
+                                        <i
+                                            class="far fa-times-circle fa-xl icon"
+                                        ></i>
+                                    </div>
+
+                                    <div class="main-card-text">
+                                        <div class="main-text">
+                                            <h2>Nikemax Sneakers</h2>
+                                        </div>
+                                        <div class="main-description">
+                                            <div class="price-tag">
+                                                Price: $126
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <button class="card-btn-primary">
+                                                WISHLIST
+                                            </button>
+                                            <button class="card-btn-secondary">
+                                                BUY
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Card with dismiss</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522shoes.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520fa-xl%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENikemax%2520Sneakers%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tag%2522%253EPrice%253A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524126%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520primary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520secondary%2522%253EBUY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!----------card with text overlay -->
+                        <div class="content-head">Card with text overlay</div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="component">
+                                <div class="header">
+                                    <div class="img-card">
+                                        <img src="\Assets\shoes.jpg" />
+                                    </div>
+                                    <div class="dismiss">
+                                        <i
+                                            class="far fa-times-circle fa-xl icon"
+                                        ></i>
+                                    </div>
+                                    <div class="text-overlay">
+                                        <p>OUT OF STOCK</p>
+                                    </div>
+                                    <div
+                                        class="main-card-text text-overlay-position"
+                                    >
+                                        <div class="main-text">
+                                            <h2>Nikemax Sneakers</h2>
+                                        </div>
+                                        <div class="main-description">
+                                            <div class="price-tag">
+                                                Price: $126
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <button class="card-btn-primary">
+                                                WISHLIST
+                                            </button>
+                                            <button class="card-btn-secondary">
+                                                BUY
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            Paste the code below to use the Card with
+                            text-overlay
+                        </p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522shoes.jpg%2522%2520%252F%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520fa-xl%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EOUT%2520OF%2520STOCK%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-text%2520text-overlay-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENikemax%2520Sneakers%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tag%2522%253EPrice%253A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524126%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520primary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520secondary%2522%253EBUY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <!------------------- Horizontal card---------------->
+                        <div class="content-head">Horiontal Card</div>
+                        <!-- live code -->
+                        <div class="example-div">
+                            <div class="component horizontal-card">
+                                <div class="header-horizontal-card">
+                                    <div class="img-horizontal">
+                                        <img src="\Assets\shoes.jpg" />
+                                    </div>
+                                    <div class="main-card-text">
+                                        <div class="main-text">
+                                            <h2>Nikemax Sneakers</h2>
+                                        </div>
+                                        <div class="main-description">
+                                            <div class="price-tag">
+                                                Price: $126
+                                            </div>
+                                        </div>
+                                        <div class="list list-horizontal-card">
+                                            <button class="card-btn-primary">
+                                                WISHLIST
+                                            </button>
+                                            <button class="card-btn-secondary">
+                                                BUY
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Paste the code below to use the Horiontal Card</p>
+                        <div class="code-snippet-container">
+                            <div class="code-display">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=540.25&ds=true&dsyoff=20px&dsblur=18px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component%2520horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522shoes.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-text%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENikemax%2520Sneakers%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tag%2522%253EPrice%253A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524126%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2520list-horizontal-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520primary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520secondary%2522%253EBUY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    style="
+                                        width: 760px;
+                                        height: 200px;
+                                        border: 0;
+                                        transform: scale(1);
+                                        overflow: hidden;
+                                    "
+                                    sandbox="allow-scripts allow-same-origin"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/60d2206e29.js"
+        crossorigin="anonymous"
+    ></script>
+</html>

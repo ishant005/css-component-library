@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap');
+
+
+/*********** Components Imports ***********/
+@import "./alert.css";
+@import "./avatar.css";
+@import "./Avatar-badge.css";
+@import "./button.css";
+@import "./card.css";
+@import "./docs.css";
+@import "./drawer.css";
+@import "./icon-badge.css";
+@import "./image.css";
+@import "./input.css";
+@import "./navbar.css";
+@import "./typography.css";
+@import "./rating.css";
+
+
+:root{
+    --white:rgb(248, 247, 247);
+    --error-color:rgb(219, 8, 8);
+    --success-color:rgb(29, 122, 29);
+    --warning-color:rgb(236, 165, 71);
+    --danger-color:rgb(116, 37, 37);
+    --grey-color:rgb(138, 136, 136);
+    --primary-color:rgb(83, 83, 221);
+    --link-hover:rgb(6, 6, 119);
+    --link-active:rgb(12, 12, 85);
+    --icon-bg:rgb(231, 195, 195);
+    --primary-color-icon:rgb(83, 83, 221);
+    --primary-hover:rgb(63, 63, 194);
+    --success-hover:rgb(12, 97, 12);
+    --error-hover:rgb(190, 10, 10);
+    --default-hover:rgb(241, 151, 32);
+    --card-background:rgb(0, 0, 255);
+    --main-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    --hover-effect-color: #eeeded;
+    --light-gray: rgb(176, 176, 176);
+    --btn-background-color:rgb(235, 229, 229);
+    --doc-background-color:#F5F7F9;
+    --drawer-background-color:rgb(219, 216, 216);
+    --drawer-title-color:rgb(87, 85, 85);
+    --input-type-color:#999;
+    --main-component-color:#333;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}

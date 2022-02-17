@@ -1,0 +1,156 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url(../styles.css);
+* {
+    font-family: sans-serif;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html {
+    font-size: 100%;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-size: 0.9rem;
+}
+
+.header {
+    opacity: 0.9;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.img-horizontal{
+    height: 13rem;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    width: 20rem;
+    border-radius: 4px;
+    box-shadow: var(--main-box-shadow);
+    margin: 4rem;
+}
+.horizontal-card{
+    height: 13rem;
+}
+.img-card {
+    height: 13rem;
+}
+.badge-card{
+    position: relative;
+    top: -13rem;
+    height: 1.3rem;
+    width: 3rem;
+    padding: 3px 6px;
+    color: var(--white);
+    border-radius: 3px;
+    background-color: var(--card-background);
+}
+.image img {
+    border-radius: 4px 4px 0px 0px;
+}
+.list button {
+    margin-top: 0.4rem;
+    background-color: var(--card-background);
+    color: var(--white);
+    padding: 10px 10px;
+    border: none;
+}
+.card-btn-secondary{
+    width: 5.2rem;
+}
+.main-card-text{
+    margin: 5px;
+}
+.main h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.main h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--grey-color);
+    margin-bottom: 1rem;
+}
+.main p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--grey-color);
+}
+.header:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn-text {
+    display: flex;
+}
+.btn-read:hover {
+    background-color: rgb(235, 229, 229);
+}
+.dismiss{
+    color: var(--white);
+    position: relative;
+    top: -12rem;
+    left: 18rem;
+}
+.btn-font i {
+    height: 2.8rem;
+    width: 2.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text i:hover {
+    background-color: var(--btn-background-color);
+    border-radius: 50%;
+}
+.btn-read {
+    background-color: var(--btn-background-color);
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.5rem 0.25rem;
+    font-weight: bold;
+}
+.btn-font {
+    display: flex;
+    padding: 0.25rem 0rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.text-overlay{
+    background-color: var(--grey-color);
+    text-align: center;
+    position: relative;
+    top: -7rem;
+    color:var(--white);
+    height: 2rem;
+   
+}
+.text-overlay-position{
+    position: relative;
+    top: -2rem;
+}
+.text-overlay p{
+    padding: auto;
+}
+.header-horizontal-card{
+    display: flex;
+    flex-direction: row;
+}
+.list-horizontal-card{
+    margin:2rem 0.5rem ;
+}
