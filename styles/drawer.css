@@ -35,7 +35,6 @@
     gap: 2rem;
     color: var(--drawer-title-color);
     padding:  1rem  0.5rem;
-    border: 1px solid red;
 }
 .drawer-title{
     margin: 1rem;
